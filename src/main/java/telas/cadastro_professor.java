@@ -219,7 +219,7 @@ public class cadastro_professor extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null,"cadastrado");
             }else{
                 JOptionPane.showMessageDialog(null,"erro");
-            }
+             }
     }//GEN-LAST:event_finalizarCadastrarActionPerformed
 
     /**
