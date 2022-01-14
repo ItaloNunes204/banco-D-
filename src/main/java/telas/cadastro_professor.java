@@ -250,21 +250,6 @@ public class cadastro_professor extends javax.swing.JFrame {
             }
         });
     }
-    public JTextField mascara(int tamanha,String caracteres){
-        try {
-            String quantidade="";
-            for(int i =0;i<tamanha;i++){
-                quantidade=quantidade+"*";
-            }
-            javax.swing.text.MaskFormatter nome=new javax.swing.text.MaskFormatter(quantidade);
-            nome.setValidCharacters(caracteres);
-            return new javax.swing.JFormattedTextField(nome);
-        } catch (ParseException ex) {
-            JOptionPane.showMessageDialog(null,"ocorreu um erro");
-            return new JTextField();
-        }
-    }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField codigoValidacao;
     private javax.swing.JTextField e_mail;
