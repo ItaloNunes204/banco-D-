@@ -8,6 +8,7 @@ package telas;
 import dao.cadastro_questaoDao;
 import dao.cadastro_recomendacaoDao;
 import java.util.List;
+import javax.swing.JOptionPane;
 import model.questao;
 import model.recomendacao;
 
@@ -139,10 +140,20 @@ public class resposta_da_questão extends javax.swing.JFrame {
     private void proximaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximaActionPerformed
         // TODO add your handling code here:
             num++;
+            cadastro_questaoDao pegaList = new cadastro_questaoDao();
+            List<questao>consulta = pegaList.listaDeQuestoes();
+            if(num>=consulta.size()){
+                JOptionPane.showMessageDialog(null,"fim das questoes");
+                 entrada entra=new entrada();
+                 entra.setLocationRelativeTo(null);
+                 entra.setVisible(true); 
+                 dispose();
+            }else{
             tela_de_exibição_de_questão respo = new tela_de_exibição_de_questão(num);
             respo.setLocationRelativeTo(null);
             respo.setVisible(true); 
             dispose();
+            }
     }//GEN-LAST:event_proximaActionPerformed
 
     /**

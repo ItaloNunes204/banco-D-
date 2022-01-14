@@ -339,6 +339,14 @@ public class tela_de_exibição_de_questão extends javax.swing.JFrame {
         int a,b,c,d,e;
         cadastro_questaoDao pegaList = new cadastro_questaoDao();
         List<questao>consulta = pegaList.listaDeQuestoes();
+        if(0<consulta.size()){
+            if(nu>=consulta.size()){
+                 JOptionPane.showMessageDialog(null,"fim das questoes");
+                 entrada entra=new entrada();
+                 entra.setLocationRelativeTo(null);
+                 entra.setVisible(true); 
+                 dispose();
+            }
             nome_ano.setText((String) consulta.get(nu).getNome()+ "/" +consulta.get(nu).getAno());
             enunciado.setText((String)consulta.get(nu).getEnunciado());
             rep1=consulta.get(nu).getResposta_1();
@@ -445,6 +453,13 @@ public class tela_de_exibição_de_questão extends javax.swing.JFrame {
                 break;
                 
             }
+    }else{
+            JOptionPane.showMessageDialog(null,"não temos questões \n obrigado por participar ");
+            entrada entra=new entrada();
+            entra.setLocationRelativeTo(null);
+            entra.setVisible(true); 
+            dispose();
+        }
     }
     public List<Integer> sorteio(){
         List<Integer> lista = new ArrayList<Integer>();
