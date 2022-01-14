@@ -160,22 +160,13 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nomeActionPerformed"/>
           </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="nome=mascara(15,&quot;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#xe7;&#xc7;&#xe9;&#xe1;&#xed;&#xfa;&#xf3;&#xc1;&#xc9;&#xd3;&#xcd;&#xda;&#xe3;&#xf5;&#xc3;&#xd5;&quot;);"/>
-          </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="sobrenome">
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="sobrenome=mascara(15,&quot;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#xe7;&#xc7;&#xe9;&#xe1;&#xed;&#xfa;&#xf3;&#xc1;&#xc9;&#xd3;&#xcd;&#xda;&#xe3;&#xf5;&#xc3;&#xd5;&quot;);"/>
-          </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="senha">
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="senhaActionPerformed"/>
           </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="senha=mascara(8,&quot;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#xe7;&#xc7;&#xe9;&#xe1;&#xed;&#xfa;&#xf3;&#xc1;&#xc9;&#xd3;&#xcd;&#xda;&#xe3;&#xf5;&#xc3;&#xd5;0123456789&quot;);"/>
-          </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="finalizarCadastrar">
           <Properties>
@@ -194,17 +185,11 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="codigoValidacaoActionPerformed"/>
           </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="codigoValidacao=mascara(15,&quot;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#xe7;&#xc7;&#xe9;&#xe1;&#xed;&#xfa;&#xf3;&#xc1;&#xc9;&#xd3;&#xcd;&#xda;&#xe3;&#xf5;&#xc3;&#xd5;&quot;);"/>
-          </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="e_mail">
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e_mailActionPerformed"/>
           </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="e_mail=mascara(100,&quot;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#xe7;&#xc7;&#xe9;&#xe1;&#xed;&#xfa;&#xf3;&#xc1;&#xc9;&#xd3;&#xcd;&#xda;&#xe3;&#xf5;&#xc3;&#xd5;0123456789&quot;);"/>
-          </AuxValues>
         </Component>
       </SubComponents>
     </Container>
