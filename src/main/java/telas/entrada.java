@@ -137,7 +137,7 @@ public class entrada extends javax.swing.JFrame {
         valida = verifica(e_mail.getText(),senha.getText());
         if(valida == true){
             JOptionPane.showMessageDialog(null,"entrando");
-             JOptionPane.showMessageDialog(null,p);
+             //JOptionPane.showMessageDialog(null,p);
              if(p == 1){
                  pricipal_Aluno alu=new pricipal_Aluno(nome,sobrenome);
                  alu.setLocationRelativeTo(null);
