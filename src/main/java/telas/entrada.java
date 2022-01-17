@@ -212,12 +212,13 @@ public class entrada extends javax.swing.JFrame {
                 p=1;
                 sobrenome=listaUsu.get(i).getSobrenome();
                 return true;
-            }
+            }else{
             if(e_mail.equals(listaPro.get(i).getE_mail()) && senha.equals( listaPro.get(i).getSenha())){
                 nome=listaPro.get(i).getNome();
                 sobrenome=listaPro.get(i).getSobrenome();
                 p=2;
                 return true;
+            }
             }
         }
         return false;
